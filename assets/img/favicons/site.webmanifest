@@ -10,12 +10,12 @@ layout: compress
   "description": "{{ site.description }}",
   "icons": [
     {
-      "src": "{{ favicon_path }}/android-chrome-192x192.png",
+      "src": "https://menbosha-s3.s3.ap-northeast-2.amazonaws.com/UserImages/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA+2024-03-11+%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE+4.13.49.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "{{ favicon_path }}/android-chrome-512x512.png",
+      "src": "https://menbosha-s3.s3.ap-northeast-2.amazonaws.com/UserImages/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA+2024-03-11+%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE+4.13.49.png",
       "sizes": "512x512",
       "type": "image/png"
     }],
