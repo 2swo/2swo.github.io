@@ -43,7 +43,7 @@ social:
 
 # 사이트 인증 설정
 webmaster_verifications:
-  google: # Google 인증 코드를 입력하십시오.
+  google: K06DRT_cvLf_Ab_zo6Be9fStVL5p3lntYMePIGquMQ0 # Google 인증 코드를 입력하십시오.
   bing: # Bing 인증 코드를 입력하십시오.
   alexa: # Alexa 인증 코드를 입력하십시오.
   yandex: # Yandex 인증 코드를 입력하십시오.
