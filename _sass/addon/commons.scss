@@ -696,6 +696,7 @@ $btn-border-width: 3px;
 $btn-mb: 0.5rem;
 
 #sidebar {
+  //사이드바 이미지 수정 시 여기
   @include pl-pr(0);
 
   position: fixed;
@@ -707,6 +708,7 @@ $btn-mb: 0.5rem;
   z-index: 99;
   background: var(--sidebar-bg);
   border-right: 1px solid var(--sidebar-border-color);
+  background-position: center;
 
   /* Hide scrollbar for Chrome, Safari and Opera */
   &::-webkit-scrollbar {
@@ -758,7 +760,7 @@ $btn-mb: 0.5rem;
     font-weight: 900;
     font-size: 1.75rem;
     line-height: 1.2;
-    letter-spacing: 0.25px;
+    letter-spacing: 0.5px;
     margin-top: 1.25rem;
     margin-bottom: 0.5rem;
 
@@ -766,13 +768,13 @@ $btn-mb: 0.5rem;
       @extend %clickable-transition;
       @extend %sidebar-link-hover;
 
-      color: var(--site-title-color);
+      color: rgba(254, 254, 254, 99%);
     }
   }
 
   .site-subtitle {
     font-size: 95%;
-    color: var(--site-subtitle-color);
+    color: rgba(254, 254, 254, 99%);
     margin-top: 0.25rem;
     word-spacing: 1px;
     -webkit-user-select: none;
